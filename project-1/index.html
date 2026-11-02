@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project 1</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .button {
+            height: 80px;
+            width: 80px;
+            border: 2px solid black;
+            display: inline-block;
+        }
+
+        h1,
+        h2,
+        .span,
+        nav {
+            justify-self: center;
+        }
+
+        .nav {
+            background-color: #727171;
+            height: 40px;
+        }
+
+        a {
+            text-decoration: none;
+            border: 1px solid black;
+            /* margin-top: 8px; */
+            /* align-self: center; */
+            background-color: rgb(228, 228, 219);
+            color: black;
+        }
+
+
+        #grey {
+            background-color: #727171;
+        }
+
+        #white {
+            background-color: aliceblue;
+        }
+
+        #yellow {
+            background-color: yellow;
+        }
+
+        #blue {
+            background-color: rgb(27, 27, 158);
+        }
+
+        #purple {
+            background-color: purple;
+        }
+
+        #red {
+            background-color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <nav>
+            <a href="/" aria-current="page">Home</a>
+            <a href="/" target="_blank">Youtube channel</a>
+        </nav>
+    </div>
+
+    <div class="canvas">
+        <h1>Color Scheme Switcher</h1>
+        <div class="span">
+            <span class="button" id="grey"></span>
+            <span class="button" id="white"></span>
+            <span class="button" id="blue"></span>
+            <span class="button" id="yellow"></span>
+            <span class="button" id="purple"></span>
+            <span class="button" id="red"></span>
+        </div>
+        <h2>
+            Try clicking on one of the color above
+            <span>to change the background color of this page!</span>
+        </h2>
+    </div>
+
+<script src="script2.js"></script>
+</body>
+
+</html>
